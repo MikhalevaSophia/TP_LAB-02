@@ -1,9 +1,8 @@
 include <iostream>
-using namespace std;
+include <string>;
 int main () {
-	cout << "Hello world!";
-string name;
-cout << "Please enter neme";
-cin >> name;
-cout << "Hello world from " << name;
+	std::string name;
+	std::cout << "Please enter name";
+	std::cin >> name;
+	std::cout << "Hello world from " << name;
 }
